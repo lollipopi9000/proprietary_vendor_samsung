@@ -41,4 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/aries-common/proprietary/flash_image:flash_image \
     vendor/samsung/aries-common/proprietary/erase_image:erase_image \
     vendor/samsung/aries-common/proprietary/busybox:busybox \
-    vendor/samsung/aries-common/proprietary/flash_image:make_ext4fs:make_ext4fs
+    vendor/samsung/aries-common/proprietary/flash_image:make_ext4fs:make_ext4fs \
+    vendor/samsung/aries-common/proprietary/bml_over_mtd:bml_over_mtd \
+    vendor/samsung/aries-common/proprietary/bml_over_mtd.sh:bml_over_mtd.sh
