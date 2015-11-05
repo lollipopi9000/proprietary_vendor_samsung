@@ -38,9 +38,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/aries-common/proprietary/libtvouthdmi.so:system/lib/libtvouthdmi.so \
     vendor/samsung/aries-common/proprietary/libtvoutservice.so:system/lib/libtvoutservice.so \
     vendor/samsung/aries-common/proprietary/tvoutserver:system/bin/tvoutserver \
-    vendor/samsung/aries-common/proprietary/flash_image:flash_image \
-    vendor/samsung/aries-common/proprietary/erase_image:erase_image \
-    vendor/samsung/aries-common/proprietary/busybox:busybox \
-    vendor/samsung/aries-common/proprietary/flash_image:make_ext4fs:make_ext4fs \
-    vendor/samsung/aries-common/proprietary/bml_over_mtd:bml_over_mtd \
-    vendor/samsung/aries-common/proprietary/bml_over_mtd.sh:bml_over_mtd.sh
+#    vendor/samsung/aries-common/proprietary/flash_image:utilities/flash_image \
+#    vendor/samsung/aries-common/proprietary/erase_image:utilities/erase_image \
+#    vendor/samsung/aries-common/proprietary/busybox:utilities/busybox \
+#    vendor/samsung/aries-common/proprietary/bml_over_mtd:utilities/bml_over_mtd \
+#    vendor/samsung/aries-common/proprietary/bml_over_mtd.sh:utilities/bml_over_mtd.sh
+#    vendor/samsung/aries-common/proprietary/make_ext4fs:utilities/make_ext4fs
